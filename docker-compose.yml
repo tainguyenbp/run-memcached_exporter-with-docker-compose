@@ -1,0 +1,8 @@
+version: '2'
+services:
+
+  memcached-exporter-server:
+    image: bitnami/memcached-exporter:latest
+    container_name: memcached-exporter-server
+    ports:
+      - 9150:9150
